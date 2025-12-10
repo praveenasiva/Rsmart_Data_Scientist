@@ -1,11 +1,8 @@
 
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-import pandas as pd
-import time
+
 
 # Set up the Chrome browser
-driver = webdriver.Chrome()  # Make sure chromedriver is in your PATH
+genral = webdriver.Chrome()  # Make sure chromedriver is in your PATH
 
 # Open Ajio's Fastrack watches page
 driver.get("https://www.ajio.com/search/?text=fastrack%20watches")
